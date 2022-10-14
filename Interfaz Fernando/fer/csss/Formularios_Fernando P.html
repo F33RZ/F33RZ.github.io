@@ -1,0 +1,181 @@
+<html>
+<meta charset="UTF-8">
+<title>Documento sin título</title><head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<link href="style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios en html&nbsp;</h1>
+</header>
+<nav>&nbsp;</nav>
+<main>
+  <section>
+    <h2 id="m1">Formularios&nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Duis tincidunt massa vitae ipsum volutpat tempor. Donec
+      iaculis non ante nec tempor. Sed bibendum, orci et posuere tristique, dui
+      ligula ultricies neque, nec lobortis nunc nisl eu massa. In nisi enim,
+    tempus vel arcu quis, suscipit fringilla mi.</p>
+    <form id="form1" name="form1" method="get">
+      <label for="Nombre">Nombre:</label>
+      <input type="text" name="Nombre" id="Nombre">
+		<br> 
+      <label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+		<br>
+      <input type="submit" name="boton_1" id="boton_1" value="Enviar">
+      
+    </form>
+   
+<p>&nbsp;</p>
+  </section>
+  <section>
+    <h2 id="m2">Formularis usando&nbsp; select,&nbsp; &nbsp;checkbox&nbsp; y radiobutton</h2>
+<p>Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Duis tincidunt massa vitae ipsum volutpat tempor. Donec
+      iaculis non ante nec tempor. Sed bibendum, orci et posuere tristique, dui
+      ligula ultricies neque, nec lobortis nunc nisl eu massa. In nisi enim,
+      tempus vel arcu quis, suscipit fringilla mi. Etiam lacinia fringilla
+      varius. Quisque ornare augue quis euismod. Sed fringilla
+      consectetur leo, ac facilisis ligula ullamcorper quis. Duis vulputate
+      nunc in scelerisque molestie. Vestibulum ac est feugiat, pharetra libero
+      nec, feugiat nulla. Nam placerat at justo vitae eleifend. Sed nisl eros,
+    auctor quis ullamcorper ut, feugiat in ligula. Nullam sit amet</p>
+<form id="form2" name="form2" method="post">
+  <label for="select">¿De qué pais nos visitas?:</label>
+	
+  <select name="select" id="select">
+    <option value="mx">México</option>
+    <option value="us">Estados Unidos</option>
+    <option value="es">España</option>
+    <option value="ar">Argentina</option>
+    <option value="co">Colombia</option>
+    <option value="it">Italia</option>
+  </select>
+  <label>Genero:&nbsp;</label>
+  <p>
+    <label>
+      <input type="radio" name="Genero" value="H" id="Genero_0">
+      Hombre</label>
+    <br>
+    <label>
+      <input type="radio" name="Genero" value="M" id="Genero_1">
+      Mujer</label>
+    <br>
+  </p>
+  <label>¿Cuál sera tu residencia durante tu estancia?&nbsp;</label>
+  <table width="200">
+    <tr>
+      <td><label>
+        <input type="checkbox" name="Residencia_temporal" value="Hotel" id="Residencia_temporal_0">
+        Hotel</label></td>
+    </tr>
+    <tr>
+      <td><label>
+        <input type="checkbox" name="Residencia_temporal" value="Domicilio" id="Residencia_temporal_1">
+        Domicilio amigos/familia</label></td>
+    </tr>
+    <tr>
+      <td><label>
+        <input type="checkbox" name="Residencia_temporal" value="Airbnb" id="Residencia_temporal_2">
+        Airbnb</label></td>
+    </tr>
+  </table>
+<br>
+  <input type="submit" name="submit" id="submit" value="Enviar">
+  
+</form>
+    
+    <p>&nbsp;</p>
+  </section>
+  <section>
+    <h2 id="m3">Formularios de contacto&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Duis tincidunt massa vitae ipsum volutpat tempor. Donec
+      iaculis non ante nec tempor. Sed bibendum, orci et posuere tristique, dui
+      ligula ultricies neque, nec lobortis nunc nisl eu massa. In nisi enim,
+      tempus vel arcu quis, suscipit fringilla mi. Etiam lacinia fringilla
+      varius. Quisque ornare fermentum augue quis euismod. Sed fringilla
+      consectetur leo, ac facilisis ligula ullamcorper quis. Duis vulputate
+      nunc in scelerisque molestie. Vestibulum ac est feugiat, pharetra libero
+      nec, feugiat nulla. Nam placerat at justo vitae eleifend. Sed nisl eros,
+    auctor quis ullamcorper ut, feugiat in ligula. Nullam sit ame&nbsp;</p>
+<p>&nbsp;</p>
+<form id="form3" name="form3" method="post">
+  
+    
+    <label for="textfield">Nombre:</label>
+    <input name="textfield" type="text" id="textfield" value="Escribe tu nombre">
+    
+    <label for="email">Email:</label>
+    <input name="email" type="email" id="email" value="email@gmail.com">
+    <label for="Mensaje">Mensaje:</label>
+    <textarea name="Mensaje" id="Mensaje">Escribe tu mensaje...
+    </textarea>
+    <input type="submit" name="submit2" id="submit2" value="Enviar">
+	
+  
+
+</form>
+	  <p>&nbsp;</p>
+  </section>
+  <section>
+    <h2 id="m4">&nbsp;Formulario personalizado</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Duis tincidunt massa vitae ipsum volutpat tempor. Donec
+    iaculis non ante nec tempor.</p>
+    <form action="" method="post" name="form4" id="form34">
+      <label for="textfield2">Nombre:&nbsp;</label>
+      <input type="text" name="nombre" id="nombre">
+		<br>
+		
+      <label for="number">Edad:</label>
+      <input name="numero" type="number" id="numero" max="30" min="15" step="15">
+		<br>
+      <label>¿En qué consola juegas habitualmente?&nbsp;</label>
+      <p>
+        <label>
+          <input type="radio" name="consola" value="x" id="consola_0">
+          Xbox</label>
+        <br>
+        <label>
+          <input type="radio" name="consola" value="p" id="consola_1">
+          Playstation</label>
+        <br>
+        <label>
+          <input type="radio" name="consola" value="ns" id="consola_2">
+          Nintendo Switch</label>
+        <br>
+        <label>
+          <input type="radio" name="consola" value="pc" id="consola_3">
+          PC</label>
+        <br>
+      </p>
+      <label for="textfield3">Videojuego favorito:</label>
+      <input type="text" name="videojuego" id="videojuego">
+		<br>
+      <label for="rango">Rango mas alto alcansado:</label>
+      <select name="rango" id="rango">
+        <option value="B">Bronce</option>
+        <option value="P">Plata</option>
+        <option value="O">Oro</option>
+        <option value="Pt">Platino</option>
+        <option value="D">Diamante</option>
+        <option value="M">Maestro</option>
+        <option value="Top">Top </option>
+      </select>
+		<br>
+</form>
+<p>&nbsp;</p>
+  </section>
+  
+</main>
+<footer>
+  <h6> Elaborado por: Fernando Palacios Parada</h6>
+  <p>&nbsp;</p>
+</footer>
+</boy>
+</html>
